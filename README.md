@@ -16,6 +16,8 @@ The Travel Planning Dashboard is a web application that allows users to explore 
 <img width="908" alt="image" src="https://github.com/SuryaPratap2542/Travel-planning-Dashboard/assets/89827931/aa0aedd4-ed97-4e0e-80f1-ff6094438959">
 
 <img width="199" alt="image" src="https://github.com/SuryaPratap2542/Travel-planning-Dashboard/assets/89827931/f39624e4-2edd-46c5-ba64-3d050d607e38">
+<img width="202" alt="image" src="https://github.com/SuryaPratap2542/Travel-planning-Dashboard/assets/89827931/44e190a1-8520-4bcd-99d4-f4d4f38daece">
+
 Mobile View
 
 
