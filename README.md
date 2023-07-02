@@ -1,70 +1,98 @@
-# Getting Started with Create React App
+# Travel Planning Dashboard
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+The Travel Planning Dashboard is a web application that allows users to explore and plan their travel destinations. It provides information about popular destinations, including images, location, grade, fees, and descriptions. Users can also view additional details about each destination and save them for future reference.
 
-## Available Scripts
+## Features
 
-In the project directory, you can run:
+- Display a list of popular travel destinations with relevant information.
+- Show images, location, grade, fees, and descriptions for each destination.
+- Allow users to view additional details about a destination.
+- Provide an option to save destinations for later reference.
+- Use icons to enhance the user interface and improve usability.
 
-### `npm start`
+##Images
+-- This is Navbar and home page
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+<img width="908" alt="image" src="https://github.com/SuryaPratap2542/Travel-planning-Dashboard/assets/89827931/aa0aedd4-ed97-4e0e-80f1-ff6094438959">
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+<img width="199" alt="image" src="https://github.com/SuryaPratap2542/Travel-planning-Dashboard/assets/89827931/f39624e4-2edd-46c5-ba64-3d050d607e38">
+Mobile View
 
-### `npm test`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+--This is main Page 
 
-### `npm run build`
+<img width="905" alt="image" src="https://github.com/SuryaPratap2542/Travel-planning-Dashboard/assets/89827931/4a2d1d89-f5d9-42b7-ba41-129b92719259">
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+--This is Footer 
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+<img width="907" alt="image" src="https://github.com/SuryaPratap2542/Travel-planning-Dashboard/assets/89827931/cfb6a6cb-e580-488b-aff3-76d79f80bdc9">
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### `npm run eject`
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## Technologies Used
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+- React: JavaScript library for building the user interface.
+- HTML: Markup language for structuring the web pages.
+- CSS: Styling language for designing the application.
+- React Icons: Library for adding icons to the user interface.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+## Installation
 
-## Learn More
+To run the Travel Planning Dashboard locally, follow these steps:
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+1. Clone the repository:
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+```
+git clone https://github.com/your-username/travel-planning-dashboard.git
+```
 
-### Code Splitting
+2. Navigate to the project directory:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+```
+cd travel-planning-dashboard
+```
 
-### Analyzing the Bundle Size
+3. Install the dependencies:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+```
+npm install
+```
 
-### Making a Progressive Web App
+4. Start the development server:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+```
+npm start
+```
 
-### Advanced Configuration
+5. Open a web browser and visit `http://localhost:3000` to access the application.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+## Usage
 
-### Deployment
+- Upon opening the application, you will see a list of popular travel destinations.
+- Each destination card displays an image, location, grade, fees, and a brief description.
+- Click on the "DETAILS" button to view additional information about a specific destination.
+- Use the save feature to add destinations to your saved list for future reference.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+## Contributing
 
-### `npm run build` fails to minify
+Contributions to the Travel Planning Dashboard are welcome! If you'd like to add new features, fix bugs, or improve the code, please follow these steps:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+1. Fork the repository.
+2. Create a new branch for your feature/fix: `git checkout -b feature-name`.
+3. Implement your changes and test thoroughly.
+4. Commit your changes: `git commit -m 'Add some feature'`.
+5. Push to the branch: `git push origin feature-name`.
+6. Submit a pull request.
+
+## License
+
+The Travel Planning Dashboard is open source and available under the [MIT License](LICENSE).
+
+## Acknowledgments
+
+Special thanks to the developers and contributors of the technologies used in this project.
+
+## Contact
+
+For any inquiries or feedback, please contact:
