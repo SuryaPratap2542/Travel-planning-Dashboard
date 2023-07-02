@@ -1,38 +1,77 @@
-.App {
-  text-align: center;
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Sono:wght@300&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+
+}
+/* color and styling */
+:root{
+    --PrimaryColor: hsl(199,100%,33%);
+    --SecondaryColor: hsl(187,85%,43%);
+    --gradientColor: linear-gradient(to right, hsl(187,85%,43%),hsl(199,100%,33%));
+    --whiteColor:hsl(0,0%,100%);
+    --blackColor:hsl(201,33%,16%);
+    --textColor: hsl(240,4%,36%);
+    --whiteColorDeam: hsl(0, 0%, 93%);
+    --greyText: rgb(190,190,190);
+    --inputColor: rgb(239,239,239);
+    --bodyColor: rgb(240,240,246);
+    --cardBG: rgb(225,225,235);
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+a{
+    text-decoration: none;
+}
+li{
+    list-style: none;
+}
+.section{
+    padding: 4rem 0 2rem;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.container{
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.icon{
+    font-size: 2rem;
+    cursor: pointer;
 }
-
-.App-link {
-  color: #61dafb;
+.flex{
+    display: flex;
+    align-items: center;
 }
+.grid{
+    display: grid;
+    align-items: center;
+}
+.btn {
+    padding: .6rem 1.5rem;
+    background: var(--gradientColor);
+    border-radius: 3rem;
+    border: none;
+    outline: none;
+    cursor: pointer;
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+}
+.btn a{
+    color: var(--whiteColor);
+    font-weight: 500;
+}
+.btn:hover{
+    background: var(--SecondaryColor);
+}
+img,video{
+    width: 100%;
+    height: auto;
+
+}
+input{
+    font-size: 100%;
+}
+body{
+    background:var(--bodyColor);
 }
